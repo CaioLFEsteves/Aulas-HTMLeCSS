@@ -1,0 +1,21 @@
+#titulo {
+    color:green; 
+    
+}
+ /*Por ID*/
+.teste1{
+    color:red;
+}
+
+/*Por Classe*/
+#titulo,
+.teste1{
+
+    font-size:30px;
+}
+/*Varios elementos separados por virgula*/
+ol li{
+
+    color:pink; 
+}
+/*segundo elemento dentro do primeiro, apenas separado com espeço.*/
