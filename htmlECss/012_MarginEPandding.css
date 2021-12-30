@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+}
+
+.exemplo{
+    border: 2px solid #0000ff;
+    padding:10px; /*Quando se seleciona apenas um, ele o aplica em todos os lados*/
+    /*margin:10px;*/
+    
+}
+
+.teste1{
+    border: 2px solid #0000ff;
+    padding-left:10px; /*Mas dá para selecionar direita ou esquerda*/
+    padding-right:20px;
+    margin-bottom:0px;
+}
+
+.teste2{
+    border: 2px solid #0000ff;
+    padding-bottom:10px; /*E também em cima ou em baixo*/
+    padding-top: 20px;
+    margin-top:0px;
+}
+
+.teste3{
+    border: 2px solid #0000ff;
+    padding: 30px 10px 50px 40px; /*Dessa forma é possível definir cada lado
+    sendo que o primeiro é em cima, depois direita, em baixo e esquerda no final.*/
+    margin-bottom:20px;/*Isso aqui foi um teste de influencia entre margens que fiz.
+    pra minha surpresa, elas não lavam em conta o margin do elemento à sua volta, 
+    e sim o border*/
+}
+
+.teste4{
+    border: 2px solid #0000ff;
+    padding: 30px 60px; /*Dessa forma é aplicado em cima e em baixo no primeiro
+    e dos lados direito e esquerdo no segundo.*/
+    margin-top:20px;
+}
