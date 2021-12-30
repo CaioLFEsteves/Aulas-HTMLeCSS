@@ -1,0 +1,64 @@
+.teste1{
+    background-color: rgb(0,0,0);
+    color: white;
+
+    /*Usando o comando border é possivel inserir três características, são elas:
+    
+    Expessura, em pixels;
+    Formato, que pode ser solid (sólido), dotted (pontilhado), 
+    dashed (tracejado), no-border e algumas outras;
+    Cor, que varia pelo RGB.*/
+
+    border: 5px solid #0000ff;
+
+}
+
+.teste2{
+    background-color: rgb(0,0,0);
+    color: white;
+
+    /*Usando o comando border-bottom é possivel inserir borda abaixo apenas:
+    */
+
+    border-bottom: 5px solid #0000ff;
+
+}
+
+.teste3{
+    background-color: rgb(0,0,0);
+    color: white;
+
+    border-left: 5px solid #0000ff;
+
+}
+
+.teste4{
+    background-color: rgb(0,0,0);
+    color: white;
+
+    border-right: 5px solid #0000ff;
+
+}
+
+h1{
+    background-color: red;
+    border-radius: 10px;
+    
+}
+
+div{
+
+    /*Nesse caso o border-radius tem que ser metade 
+    do tamanho para formar um círculo*/
+    background-color: #256;
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px dashed lightskyblue;
+}
+
+img{
+
+        border: 10px solid darkgreen;
+        border-radius:20px;
+}
