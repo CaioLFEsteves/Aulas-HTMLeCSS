@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="013_WidthHeight.css"/>
+    <title>Largura e Altura</title>
+</head>
+<body>
+    <div class="exemplo">texto de exemplo</div>
+    <br/><br/>
+    <p></p>
+    <br/>
+
+    <p>
+        Caracteristicas de width e height (largura e altura), permite acrescentar <br/>
+        algumas formas de medida, como quantidade de pixel, porcentagem, preenchimento automatico,<br/>
+        e varios outros. A primeira é literal, as outras são em relação ao espaço disponível em tela.
+        <br/><br/>
+        Vale lembrar que se usar largura automática para imagem, esta ficará em seu tamanho natural.<br/>
+        Ou seja, sempre é melhor definir a quantidade de pixels.
+    </p>
+
+    <img src="https://www.google.com.br/google.jpg" alt="logo google"/>
+
+    <p class="teste1">Para selecionar objetos específicos pode-se utilizar "id=tituloQualquer"
+        e para chamar o id no css, basta usar a #. Pode ser usado apenas para um elemento.
+
+       
+    </p>
+
+    <div class="tagPai">
+            <p class="teste2">Ao definir uma largura na tag que contêm a imagem filha, e definir 
+                a largura da imagem filha como inherit, está irá herdar a largura definida na tag Pai. 
+              <br/><br/>
+                Mesmo que definindo o width como automático, ao se definir o limitador de 
+                largura mínima, está obedecerá, e ficará com 600px, nesse caso de exemplo, 
+                mesmo que naturalmente seja menor.
+            <br/><br/>
+
+                Mesmo erdando uma largura maior, ao se definir a largura máxima, essa ordem será
+                obedecida, e imagem ficará com no máximo 500px, nesse caso de exemplo
+            </p>
+
+            <img class="imagemFilha" src="https://www.google.com.br/google.jpg" alt="logo google"/>
+   </div>
+
+    <br/><br/>
+
+    <p class="teste3">E claro, o mais básico échamar diretamente pelo nome do elemento. O problema
+        éque se usar essa forma, todos os elementos iguais serão afetador de uma vez.
+    </p>
+
+    <p class="teste4">E claro, o mais básico échamar diretamente pelo nome do elemento. O problema
+        éque se usar essa forma, todos os elementos iguais serão afetador de uma vez.
+    </p>
+</body>
+</html>

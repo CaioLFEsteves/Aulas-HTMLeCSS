@@ -1,0 +1,47 @@
+body {
+
+    margin:0px;
+}
+
+/*Caracteristicas de width e height (largura e altura), permite acrescentar 
+algumas formas de medida, como quantidade de pixel, porcentagem, ou preenchimento automatico. 
+a primeira é literal, as outras são em relação ao espaço disponível em tela.*/
+
+.exemplo{
+    background-color:#000000;
+    width:100%;
+    height:100px;
+}
+
+.teste1{
+    background-color:#0000ff;
+    width:auto;
+    height:100px;
+}
+
+img {
+    /*se usar largura automática para imagem, esta ficará em seu tamanho natural.
+    Ou seja, sempre é melhor definir a quantidade de pixels*/
+    width: auto;
+    min-width:600px;
+    /*Mesmo que definindo o width como automático, ao se definir o limitador de 
+    largura mínima, está obedecerá, e ficará com 600px, nesse caso de exemplo, 
+    mesmo que naturalmente seja menor*/
+}
+
+.tagPai{
+
+    width:700px;
+    height:500px;
+    border: 2px solid #ff0000;
+    background-color: #ff0000;
+}
+     /*Ao definir uma largura na tag que contêm a imagem filha, e definir 
+     a largura da imagem filha como inherit, está irá herdar  a largura definida na tag Pai.*/
+.imagemFilha{
+
+    width:inherit;
+    max-width: 500px;
+    /*Mesmo erdando uma largura maior, ao se definir a largura máxima, essa ordem será
+    obedecida, e imagem ficará com no máximo 500px, nesse caso de exemplo*/
+}
