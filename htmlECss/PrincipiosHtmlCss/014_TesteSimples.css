@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: lightseagreen;
+}
+
+.topo{
+
+    width:100%;
+    height:100px;
+    background-color: #aa00aa;
+}
+
+.corpoPagina{
+
+    width:1250px;
+    height:300px;
+    background-color: #5e3448;
+    padding:50px 50px;
+    margin:50px 50px 50px 50px;
+    border:2px solid rgb(82, 5, 85)
+}
+
+.rodape{
+
+    width:100%;
+    height:150px;
+    background-color: #052b3d;
+}
