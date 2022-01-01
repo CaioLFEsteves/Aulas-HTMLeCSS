@@ -46,12 +46,29 @@
 
     <br/><br/>
 
-    <p class="teste3">E claro, o mais básico échamar diretamente pelo nome do elemento. O problema
-        éque se usar essa forma, todos os elementos iguais serão afetador de uma vez.
+    <div class="teste3">
+    <p >Ao definir altura e largura de um objeto, o que se está definindo na verdade<br/>
+        é a altura e lagura do conteúdo, no entanto, ao inspecionar o objeto que tem <br/>
+        padding, border e margin, o que é levado em consideração para o tamanho total <br/>
+        é a soma do conteúdo, padding e border. Esse quadradro verde por exemplo tem <br/>
+        height e width de 400px, mas seu tamanho real é 430px, pois o padding é de 10px<br/>
+        em cada lado e o border de 5px em cada lado.
     </p>
+    </div>
 
-    <p class="teste4">E claro, o mais básico échamar diretamente pelo nome do elemento. O problema
-        éque se usar essa forma, todos os elementos iguais serão afetador de uma vez.
-    </p>
+    </br></br>
+
+    <div class="teste4">
+        <p >Porém, para tratar a dituação de cima existem duas características de CSS que<br/>
+            podem ser utilizadas, e a s duas são aplicadas ao box-sizing:
+            <br/><br/>
+            CONTENT-BOX: Aqui o tamanho da box é definida pelo seu conteúdo, como é o que vem por
+            padrão no sistema.
+            <br/><br/>
+            BORDER-BOX: Aqui o tamanho inclue o padding e o border, e os pixels de tamanho são
+            removidos do conteúdo e aplicados à ele.<br/>
+
+        </p>
+        </div>
 </body>
 </html>
